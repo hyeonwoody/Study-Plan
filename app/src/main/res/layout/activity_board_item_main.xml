@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="90dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="2dp"
+    app:cardMaxElevation="2dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/item_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제목"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            tools:ignnore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/item_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_person"
+            android:text="별명"
+            android:textSize="12sp"
+            tools:ignnore="HardcodedText"
+            android:layout_below="@id/item_title_text"/>
+
+        <TextView
+            android:id="@+id/item_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/item_name_text"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="270dp"
+            android:text="날짜"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:textAlignment="textStart"
+            tools:ignnore="HardcodedText" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

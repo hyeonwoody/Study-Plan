@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_height="1000dp"
+        android:layout_width="match_parent"
+        android:id="@+id/scroll_view">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp">
+            <TextView
+                android:id="@+id/topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"/>
+            <TextView
+                android:id="@+id/study_book"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topic"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/study_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/study_book"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/study_start_timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/study_subject"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/study_fullseted_timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/study_start_timer"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/study_stopped_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/study_fullseted_timer"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/study_contents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/study_stopped_time"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/edit_study_contents"
+                android:layout_width="360dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/study_contents"
+                android:layout_marginTop="20dp"
+                android:background="#E9DCEC" />
+
+            <Button
+                android:id="@+id/input_yes_button"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="저장"
+                android:layout_alignBottom="@id/edit_study_contents"
+                android:layout_alignRight="@id/edit_study_contents"/>
+
+            <TextView
+                android:id="@+id/study_range"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_study_contents"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/punishment_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/study_range"
+                android:textSize="20dp"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

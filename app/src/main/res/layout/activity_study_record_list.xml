@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/main1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/main2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/main3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/main4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="로그아웃" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:id="@+id/setting_icon"
+            android:clickable="true"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/setting_icon"/>
+        <ImageView
+            android:id="@+id/timer_icon_start"
+            android:clickable="true"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/setting_icon"
+            android:src="@drawable/timer_icon"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:background="#E3DDDD">
+
+        <ImageView
+            android:id="@+id/picture_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/picture_image" />
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/picture_image"
+            android:text="Nickname"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/account_email_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nickname"
+            android:layout_alignLeft="@id/nickname"
+            android:text="ss3092@hanmail.net" />
+
+        <TextView
+            android:id="@+id/join_dates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/account_email_address"
+            android:layout_alignLeft="@id/nickname"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/level_grade"
+            android:onClick="onTextViewClicked"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/nickname"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:textColor="#774EBF"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/main_listview"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

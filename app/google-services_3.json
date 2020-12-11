@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "985138953099",
+    "firebase_url": "https://studyplan-ff402.firebaseio.com",
+    "project_id": "studyplan-ff402",
+    "storage_bucket": "studyplan-ff402.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985138953099:android:60dc9fd437d4e4a3d50d8e",
+        "android_client_info": {
+          "package_name": "com.example.teamproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985138953099-1k1mrn1r4mp4f7a4d44c7hafvqvedrfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teamproject",
+            "certificate_hash": "24896931cca2a7df3786c07b383a3aae5242f5b9"
+          }
+        },
+        {
+          "client_id": "985138953099-t0q55pure9144huedc8o735i8g1et2ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQG7Bjf6Vr9NSWEpcmBeY91HioW-KPVx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985138953099-t0q55pure9144huedc8o735i8g1et2ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="250dp">
+
+    <TextView
+        android:id="@+id/today_study_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오늘 공부한 시간 :  "
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/today_study_time_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_toRightOf="@id/today_study_time"/>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@id/today_study_time"
+        android:text="공부버튼"
+        android:textSize="29dp" />
+</RelativeLayout>

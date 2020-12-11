@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="40dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="32dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.닉네임:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/btn_nickname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:lines="1"
+            android:hint="닉네임을 입력하시오" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.이메일: "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/btn_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:lines="1"
+            android:hint="이메일을 입력하시오" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.비밀번호: "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/btn_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:lines="1"
+            android:inputType="textPassword"
+            android:hint="비밀번호를 입력하시오" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.비밀번호 확인: "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/btn_rePassword"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:lines="1"
+            android:inputType="textPassword"
+            android:hint="비밀번호를 한번 더 입력하시오" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/myId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="확인" />
+
+</LinearLayout>

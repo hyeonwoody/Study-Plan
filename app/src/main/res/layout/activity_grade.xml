@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/context"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GradeActivity">
+
+    <TextView
+        android:id="@+id/InputScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="성적 입력판"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="top|left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:clickable="true"
+        android:src="@drawable/plus_button"
+        android:scaleType="centerInside" />
+
+
+    <ScrollView
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/InputScore"
+        android:layout_marginTop="84dp">
+
+        <HorizontalScrollView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableLayout
+                android:id="@+id/addInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:id="@+id/tr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FF000000">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:background="#FFFFFFFF"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="학기" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:background="#FFFFFFFF"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="과목" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:background="#FFFFFFFF"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="성적" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:background="#FFFFFFFF"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="등수" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:background="#FFFFFFFF"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="등급" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:background="#FFFFFFFF"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="저장" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:background="#FFFFFFFF"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="삭제" />
+
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:layout_below="@id/data">
+        <TableLayout
+            android:id="@+id/addInfo_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:id="@+id/punish_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="벌칙 수행 완료"
+            android:layout_marginLeft="51dp"
+            android:textSize="23dp"/>
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/punish_text"
+            android:text="OK"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="74dp"/>
+
+    </RelativeLayout>
+</LinearLayout>

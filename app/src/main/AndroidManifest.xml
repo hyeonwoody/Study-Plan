@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DIAL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LogIn">
+        <activity android:name=".AlertCall">
+        </activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Background_settings_">
+        </activity>
+        <activity android:name=".FindPasswordActivity" />
+        <activity
+            android:name=".RegisActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".TabActivity">
+        </activity>
+        <activity android:name=".specific_list">
+        </activity>
+        <activity android:name=".study_record_list">
+        </activity>
+        <activity android:name=".timer_operating_screen">
+        </activity>
+        <activity android:name=".timer_settings">
+        </activity>
+        <activity android:name=".study_startbutton">
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:name=".SearchActivity_able"/>
+        <activity android:name=".SearchActivity_result"/>
+        <activity android:name=".BoardActivity" />
+        <activity android:name=".BoardActivity_Read" />
+        <activity android:name=".BoardActivity_Write" />
+        <activity android:name=".GradeActivity">
+        </activity>
+    </application>
+
+</manifest>
