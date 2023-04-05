@@ -25,8 +25,8 @@
 </br>
 
 ## 🧱: Technologies Used
-Android (compileSdkVersion 30, buildToolsVersion "30.0.2")
+>Android (compileSdkVersion 30, buildToolsVersion "30.0.2")
 
 
 ## 📖: Libraries Used
-Firebase Firestore
+>Firebase Firestore
