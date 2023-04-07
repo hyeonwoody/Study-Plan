@@ -17,17 +17,17 @@
 
 </br>
 
-## 📆: 개발 기간   
+## 📆: Development Period   
 2020년 9월 ~ 2020년 12월 11일 (약 3개월) 
 
 </br>
 
-## 👥: 팀 빌딩
+## 👥: Team Building
 사용자 인터페이스 과제로 3명이 한 팀이 되어 각각 맡은 기능을 구현.  
 
 </br>
 
-## ✅: 구현 내용     
+## ✅: Implementation     
 
 - **UI** : 전반적인 Tab UI 설계.  
 
@@ -39,8 +39,8 @@
 
 </br>
 
-## 🎥: 시현 영상  
-- 
+## 🎥: Demonstration 
+- https://youtu.be/b9ZuxRFlpKc?t=500
 
 </br>
 
@@ -56,4 +56,5 @@
 
 
 ## 📖: Libraries Used
+>~~Google OAuth~~  
 >Firebase Firestore
