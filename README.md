@@ -40,7 +40,7 @@
 </br>
 
 ## 🎥: 시현 영상  
-- https://youtu.be/b9ZuxRFlpKc?t=500
+- 
 
 </br>
 
